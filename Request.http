@@ -1,0 +1,33 @@
+### Get Books
+GET localhost:5000/api/books?title=The
+
+### Post Member
+POST localhost:5000/api/members
+Content-Type: application/json
+
+{
+  "name":"Name",
+  "email":"email@gmail.com",
+  "phone":"+6283274362343",
+  "address":"Bandung"
+}
+
+### Post Borrowing
+POST localhost:5000/api/borrowings
+Content-Type: application/json
+
+{
+  "book_id":"b01302e1-8f1e-45ec-8515-da882a51b954",
+  "member_id":"70454636-d086-4d36-b44a-f736829a19be"
+}
+
+### Put Borrowing
+PUT localhost:5000/api/borrowings/70454636-d086-4d36-b44a-f736829a19be/return
+Content-Type: application/json
+
+{
+  "member_id":"70454636-d086-4d36-b44a-f736829a19be"
+}
+
+### Get Member History Borrowings
+GET localhost:5000/api/members/70454636-d086-4d36-b44a-f736829a19be/borrowings?status=RETURNED
