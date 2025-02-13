@@ -3,11 +3,12 @@
 # Teknologi
 Teknologi yang digunakan untuk membangun RESTfull API (library management system) di antaranya:
 1. Bahasa Pemrograman: Javascript;
-2. Runtime: Node.js;
-3. Framework: Express.js;
-4. Database: PostgreSQL.
-5. ORM : Sequelize
-6. Testing : Jest
+2. Runtime: Node.js (v20.15.0);
+3. Package Manager: npm (version: 10.7.0)
+4. Framework: Express.js (version: ^4.21.2);
+5. Database: PostgreSQL.
+6. ORM : Sequelize
+7. Testing : Jest
 
 # Instalasi
 Berikut adalah langkah-langkah instalasi dan cara menjalankan aplikasi.
